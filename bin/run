@@ -5,9 +5,6 @@ require_relative "../lib/song.rb"
 require_relative "../config/environment.rb"
 
 
-song = Song.new(name: "Hello", album: "25")
-puts "song name: " + song.name
-puts "song album: " + song.album
-song.save
+Whirlpool EDR3RXD1 Everydrop Refrigerator Water Filter 3
 
 DB[:conn].execute("SELECT * FROM songs")
