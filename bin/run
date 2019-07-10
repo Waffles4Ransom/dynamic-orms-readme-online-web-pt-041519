@@ -5,6 +5,6 @@ require_relative "../lib/song.rb"
 require_relative "../config/environment.rb"
 
 
-Whirlpool EDR3RXD1 Everydrop Refrigerator Water Filter 3
+song = Song.new(:name
 
 DB[:conn].execute("SELECT * FROM songs")
